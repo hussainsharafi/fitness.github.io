@@ -1,0 +1,106 @@
+@media screen and (max-width:768px) {
+
+    div.section2 div.container div.item,
+    div.container div.format {
+        width: 49%;
+    }
+
+    div.section2 div.container {
+        row-gap: 15px;
+    }
+
+    div.contact div.container div.inputs div.input {
+        width: 100%;
+    }
+
+    div.first-section div.container a,
+    div.see-more div.container h3 {
+        font-size: 20px;
+    }
+
+    div.first-section div.container p {
+        margin-bottom: 50px;
+    }
+
+    div.section2 h2,
+    div.formats-section div.formats h2,
+    div.contact div.container h2 {
+        font-size: 30px;
+    }
+
+    div.see-more div.container h2 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    div.section2 div.container div.item,
+    div.container div.format {
+        width: 100%;
+    }
+
+    div.section2 h2 {
+        text-align: center;
+    }
+
+    div.contact div.container div.inputs div.input {
+        width: 100%;
+    }
+
+    div.contact div.container {
+        width: 90%;
+    }
+    div.first-section div.container h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    div.section2 h2 {
+        font-size: 30px;
+    }
+
+    div.first-section div.container a {
+        padding: 18px 20px;
+    }
+
+    div.first-section div.container p {
+        margin-bottom: 20px;
+    }
+
+    div.container div.format div {
+        margin-top: 300px;
+    }
+
+    div.container div.format h3 {
+        margin-top: 10px;
+    }
+
+    div.see-more div.container h2 {
+        font-size: 38px;
+    }
+
+    div.see-more div.container h3 {
+        font-size: 20px;
+    }
+
+    div.contact div.container h2 {
+        font-size: 30px;
+    }
+    div.container div.format div{
+        width: auto;
+    }
+    div.first-section div.container h1{
+        padding-top: 200px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    div.contact div.container {
+        width: 90%;
+    }
+}

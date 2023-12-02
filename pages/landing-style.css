@@ -1,0 +1,1537 @@
+@font-face {
+    font-family: "font-awesome";
+    src: url("../webfonts/fa-brands-400.ttf");
+}
+
+@font-face {
+    font-family: "font-awesome";
+    src: url("../webfonts/fa-brands-400.woff2");
+}
+
+@font-face {
+    font-family: "font-awesome";
+    src: url("../webfonts/fa-regular-400.ttf");
+}
+
+@font-face {
+    font-family: "font-awesome";
+    src: url("../webfonts/fa-regular-400.woff2");
+}
+
+@font-face {
+    font-family: "font-awesome";
+    src: url("../webfonts/fa-solid-900.ttf");
+}
+
+@font-face {
+    font-family: "font-awesome";
+    src: url("../webfonts/fa-solid-900.woff2");
+}
+
+/* import open sans fonts */
+@font-face {
+    font-family: "sans-bold";
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "sans-extrabold";
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "sans-light";
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "sans-medium";
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "sans-regular";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "sans-semibold";
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+
+/* start the style for header */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    margin: auto;
+    font-size: 16px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+header div.container {
+    width: 80%;
+    margin: auto;
+}
+
+header a {
+    text-align: right;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "sans-semibold";
+    text-decoration: none;
+    color: black;
+}
+
+header a:active {
+    color: #ffc63d;
+}
+
+header a:hover {
+    color: #ffc63d;
+}
+
+/* end the style of header */
+/* start the style of fitness gym sectoin */
+
+div.fitness {
+    width: 100%;
+    height: 869px;
+    background-image: url("images/gym.jpg");
+    background-position: 50% 0%;
+    background-size: cover;
+    padding-top: 110px;
+}
+
+div.fitness div.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 60px;
+}
+
+div.logo{
+    background-image: url("images/r.png");
+    width: 141px;
+    height: 87px;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: auto;
+}
+
+div.fitness div.container div.h1 h1 {
+    font-size: 61px;
+    font-family: "sans-bold";
+    width: 60%;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+div.fitness div.container div.h1 p {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "sans-regular";
+    width: 63%;
+    margin: auto;
+    margin-top: 30px;
+}
+div.link{
+    width: 46%;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+div.link div.one,div.second{
+    width: 50%;
+}
+div.link div.one a{
+    padding: 18px 43px 19px;
+    font-size: 16px;
+    font-family: "sans-bold";
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffc63d;
+    color: #111111;
+    border: 2px solid #ffc63d;
+}
+div.link div.one a:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+div.link div.second a{
+    padding: 18px 43px 19px;
+    font-size: 16px;
+    font-family: "sans-bold";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 2px solid #ffc63d;
+}
+div.link div.second a:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    color: #111111;
+}
+
+/* end of fitness gym secyion style */
+/* start the journy secyion style */
+
+div.journy {
+    background-color: #ffc63d;
+    padding: 65px 0px;
+}
+
+div.journy div.container {
+    width: 85%;
+    margin: auto;
+    display: flex
+}
+
+div.journy div.container div.columns {
+    width: 56%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div.journy div.container div.four-column{
+    width: 44%;
+    padding: 30px 60px;
+}
+div.container div.columns div.first-column,div.second-column,div.third-column {
+    width: 32%;    
+}
+div.container div.columns div.second-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.container div.columns div.first-column div.row-one {
+    width: 100%;
+    background-image: url("images/46556.jpg");
+    height: 250px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+div.container div.columns div.first-column div.row-two{
+    background-image: url("images/5677.jpg");
+}
+div.container div.columns div.row-second-one{
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+div.container div.columns div.row-second-one h6{
+    margin: 0px;
+    font-size: 18px;
+    font-family: "sans-bold";
+}
+div.second-column div{
+    width: 100%;
+}
+div.container div.columns div.second-column div.row-one{
+    width: 100%;
+    background-image: url("images/ty.jpg");
+    height: 250px;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+div.container div.columns div.third-column div.row-one{
+    width: 100%;
+    background-image: url("images/34.jpg");
+    height: 250px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+div.container div.columns div.third-column div.row-two{
+    width: 100%;
+    background-image: url("images/tyr55.jpg");
+    height: 250px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+div.container div.four-column h2{
+    font-size: 45px;
+    font-family: "sans-bold";
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+div.container div.four-column h4{
+    font-size: 24px;
+    font-family: "sans-bold";
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+div.container div.four-column p{
+    font-size: 18px;
+    font-family: "sans-light";
+    margin-top: 0px;
+}
+div.container div.four-column div.one{
+    padding: 10px 10px 10px 0px;
+}
+/* end the journy secyion style */
+/* start the start today secyion style */
+div.start-today{
+    width: 100%;
+    height: 543px;
+    background-image: url("images/young-fitness-man-studio4.jpg");
+    background-position: 95% 33.95%;
+    background-size: cover;
+}
+div.start-today div.container{
+    width: 85%;
+    margin: auto;
+    padding-top: 70px;
+}
+div.start-today div.container h2{
+    font-size: 60px;
+    font-family: "sans-bold";
+    color: #FFFFFF;
+    margin: 0px;
+}
+div.start-today div.container ul li{
+    font-size: 24px;
+    font-family: "sans-regular";
+    color: #FFFFFF;
+    list-style: none;
+    line-height: 2;
+}
+div.start-today div.container ul li::before{
+    content: "\f00c";
+    color: #ffc63d;
+    font-family: "font-awesome";
+    padding-right: 10px;
+        
+}
+
+div.start-today div.container ul{
+    margin-bottom: 47px;
+    padding-left: 0px;
+}
+div.start-today div.container a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "sans-bold";
+    color: #111111;
+    padding: 15px 35px 16px;
+    background-color: #ffc63d;
+    text-decoration: none;
+}
+div.start-today div.container a:hover{
+    background-color: #FFFFFF;
+}
+/* end the start today secyion style */
+/* start the join now secyion style */
+div.join-now{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #ffc63d;
+}
+div.join-now div.container{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+div.join-now div.container h2{
+    font-size: 48px;
+    font-family: "sans-bold";
+    color: #111111;
+}
+div.join-now div.container div.columns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+div.join-now div.container div.columns div.one{
+    width: 23.5%;
+    height: 507px;
+    padding: 0px 0px 30px;
+}
+div.join-now div.container div.columns div.one div.image{
+    background-image: url("images/ytyy.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 227px;
+}
+div.join-now div.container div.columns div.two div.image{
+    background-image: url("images/66579.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 227px;
+}
+div.join-now div.container div.columns div.three div.image{
+    background-image: url("images/m.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 227px;
+}
+div.join-now div.container div.columns div.four div.image{
+    background-image: url("images/Untitled-2.jpg");
+}
+div.join-now div.container div.columns div.one div.parag{
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 250px;
+    padding: 30px 20px;
+}
+div.join-now div.container div.columns div.one div.parag h5{
+    font-size: 20px;
+    font-family: "sans-bold";
+    margin: 0px;
+
+}
+div.join-now div.container div.columns div.one div.parag p{
+    font-size: 16px;
+    font-family: "sans-light";
+    margin-top: 29px;
+    margin-bottom: 32px;
+}
+div.join-now div.container div.columns div.one div.parag div.logo{
+    background-image: url("images/481127.png");
+    width: 38px;
+    height: 38px;
+    background-position: 0% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+
+}
+
+/* end the join now secyion style */
+/* start the get active secyion style */
+div.get-active{
+    width: 100%;
+    padding: 60px 0px;
+    padding-bottom: 115px;
+
+}
+div.get-active div.container{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+div.get-active div.container div.image{
+    width: 50%;
+
+}
+div.get-active div.container div.image div.image-one{
+    width: 436px;
+    height: 380px;
+    background-image: url("images/343242.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+}
+div.get-active div.container div.image div.image-two{
+    width: 398px;
+    height: 318px;
+    background-image: url("images/rtrt.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    left: 172px;
+    top: 242px;
+    border: 8px solid white;
+}
+
+div.get-active div.container div.parag{
+    width: 50%;
+    padding: 20px 30px 20px 60px;
+
+}
+div.get-active div.container div.parag h3{
+    font-size: 48px;
+    font-family: "sans-bold";
+    width: 80%;
+    margin-bottom: 0px;
+}
+div.get-active div.container div.parag p{
+    font-size: 20px;
+    font-family: "sans-regular";
+    margin-bottom: 120px;
+}
+div.get-active div.container div.parag a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "sans-bold";
+    padding: 17px 40px 18px;
+    border: 2px solid #ffc63d;
+    text-decoration: none;
+    color: #111111;
+}
+div.get-active div.container div.parag a:hover{
+    background-color: #ffc63d;
+}
+
+/* end the get active secyion style */
+/* start the relax secyion style */
+div.relax{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #111111;
+}
+div.relax div.container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div.relax div.container div.parag{
+    width: 40%;
+    padding: 100px 40px 30px 0px;
+}
+div.relax div.container div.parag h2{
+    font-size: 36px;
+    font-family: "sans-bold";
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+div.relax div.container div.parag p{
+    font-size: 1rem;
+    font-family: "sans-regular";
+    color: #FFFFFF;
+    line-height: 1.8;
+    margin-bottom: 120px;
+    width: 85%;
+}
+div.relax div.container div.parag a {
+    font-size: 18px;
+    font-family: "sans-bold";
+    text-decoration: none;
+    color: #111111;
+    padding: 18px 69px 19px 68px;
+    background-color: #ffc63d;
+    text-transform: uppercase;
+}
+div.relax div.container div.parag a:hover{
+    background-color: #ffffff;
+}
+div.relax div.container div.image{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+div.relax div.container div.image div.one{
+    width: 49%;
+    height: 472px;
+}
+div.relax div.container div.image div.two{
+    width: 49%;
+    height: 688px;
+    row-gap: 20px;
+}
+div.relax div.container div.image div.one div.image{
+    width: 100%;
+    height: 389px;
+    background-image: url("images/11.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+div.relax div.container div.image div.one div.parag{
+    width: 100%;
+    height: 83px;
+    background-color: #ffc63d;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+div.relax div.container div.image div.one div.parag h4{
+    font-size: 24px;
+    font-family: "sans-bold";
+    width: 50%;
+}
+div.relax div.container div.image div.two div.one,div.two{
+    width: 100%;
+    height: 334px;
+}
+div.relax div.container div.image div.two div.one div.pic{
+    width: 100%;
+    height: 254px;
+    background-image: url("images/yy.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+div.relax div.container div.image div.two div.one div.parag{
+    width: 100%;
+    height: 80px;
+    background-color: #ffc63d;
+    padding: 0px 20px;
+}
+div.relax div.container div.image div.two div.second-two div.pic{
+    width: 100%;
+    height: 254px;
+    background-image: url("images/mw.jpg");
+    background-position: 50% 37%;
+    background-size: cover;
+    margin-top: 20px;
+}
+div.relax div.container div.image div.two div.second-two div.parag{
+    width: 100%;
+    height: 80px;
+    background-color: #ffc63d;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+div.relax div.container div.image div.two div.second-two div.parag h4{
+    font-size: 24px;
+    font-family: "sans-bold";
+    width: 50%;
+}
+div.relax div.container div.image div.logo{
+    background-image: url("images/481127.png");
+    width: 38px;
+    height: 38px;
+    background-position: 0% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 105px;
+}
+/* end the relax secyion style */
+/* start the amenities section style */
+div.amenities{
+    width: 100%;
+    padding: 60px 0px 120px 0px;
+}
+div.amenities div.container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+div.amenities div.container h2{
+    font-size: 48px;
+    font-family: "sans-bold";
+    margin: 0px;
+
+}
+div.amenities div.container p{
+    font-size: 20px;
+    font-family: "sans-regular";
+    text-align: center;
+    margin: 28px 197px 0px;
+}
+div.amenities div.container div.cards{
+    width: 100%;
+    height: 770px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+    margin-top: 50px;
+}
+div.amenities div.container div.cards div.card{
+    width: 32%;
+    height: 375px;
+}
+div.amenities div.container div.cards div.card div.image{
+    width: 100%;
+    height: 288px;
+    background-image: url("images/vbvbvbbb.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+div.amenities div.container div.cards div.two div.image{
+    background-image: url("images/dfdffr.jpg");
+}
+div.amenities div.container div.cards div.three div.image{
+    background-image: url("images/fgfgg.jpg");
+}
+div.amenities div.container div.cards div.four div.image{
+    background-image: url("images/fgfg.jpg");
+}
+div.amenities div.container div.cards div.five div.image{
+    background-image: url("images/bnbnbnbnnn.jpg");
+}
+div.amenities div.container div.cards div.sex div.image{
+    background-image: url("images/ghh.jpg");
+}
+div.amenities div.container div.cards div.card div.parag{
+    width: 100%;
+    height: 87px;   
+    background-color: #ffc63d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.amenities div.container div.cards div.card div.parag h5{
+    margin: 0px;
+    font-size: 20px;
+    font-family: "sans-bold";
+}
+/* end the amenities section style */
+/* start the success section style */
+div.success{
+    width: 100%;
+    height: 937px;
+    background-image: url("images/erer-min.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+div.success div.container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+div.success div.container h2{
+    font-size: 48px;
+    font-family: "sans-bold";
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 60px;
+}
+div.success div.container p{
+    margin: 20px 240.5px 60px;
+    font-family: "sans-regular";
+    color: #c0c0c0;
+    font-size: 18px;
+}
+div.success div.container div.cards{
+    height: 555px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+div.success div.container div.cards div.card{
+    width: 32%;
+    height: 555px;
+    padding: 20px 20px 30px;
+    background-color: #FFFFFF;
+}
+div.success div.container div.cards div.card div.image{
+    width: 100%;
+    height: 342px;
+    background-image: url("images/222.jpg");
+    background-position: 50% 40%;
+    background-size: cover;
+}
+div.success div.container div.cards div.two div.image{
+    background-image: url("images/58.jpg");
+    background-position: 50% 0%;
+}
+div.success div.container div.cards div.three div.image{
+    background-image: url("images/64745322-c864-486f-a32f-adc405a416b2.jpg");
+    background-position: 50% 0%;
+}
+div.success div.container div.cards div.card div.parag h4{
+    text-align: center;
+    font-size: 24px;
+    font-family: "sans-bold";
+    margin: 20px 0px 0px 0px;
+}
+div.success div.container div.cards div.card div.parag p{
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    font-size: 16px;
+    font-family: "sans-regular";
+    color: #111111;
+    text-align: center;
+}
+div.success div.container div.cards div.card div.parag a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "sans-regular";
+    border-bottom: 1px solid #111111;
+    color: #111111;
+}
+/* end the success section style */
+/* start the why us section style */
+div.why-us{
+    width: 100%;
+    padding: 60px 0px 110px;
+}
+div.why-us div.container{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+div.why-us div.container h2{
+    font-size: 48px;
+    font-family: "sans-bold";
+    margin: 20px 0px;
+}
+div.why-us div.container p{
+    font-size: 16px;
+    font-family: "sans-regular";
+    margin: 0px;
+}
+div.why-us div.container div.cards{
+    width: 100%;
+    height: 483px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+div.why-us div.container div.cards div.card{
+    width: 33.3%;
+    height: 483px;
+    background-color: #ffc63d;
+    padding: 30px;
+    text-align: left;
+}
+div.why-us div.container div.cards div.two{
+    background-color: #f2f2f2;
+}
+div.why-us div.container div.cards div.three{
+    background-color: #292d33;
+}
+div.why-us div.container div.cards div.card div.image{
+    width: 100%;
+    height: 213px;
+    background-image: url("images/billionphotos-1656913.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+div.why-us div.container div.cards div.two div.image{
+    background-image: url("images/billionphotos-1669933.jpg");
+}
+div.why-us div.container div.cards div.three div.image{
+    background-image: url("images/billionphotos-3671911.jpg");
+}
+div.why-us div.container div.cards div.card div.parag h3{
+    font-size: 30px;
+    font-family: "sans-bold";
+    text-align: left;
+    margin: 20px 0px;
+}
+div.why-us div.container div.cards div.three div.parag h3{
+    color: #FFFFFF;
+}
+div.why-us div.container div.cards div.three div.parag p{
+    color: #FFFFFF;
+}
+div.why-us div.container div.cards div.card div.parag p{
+    font-size: 16px;
+    font-family: "sans-regular";
+    margin: 20px 0px;
+    text-align: left;
+}
+div.why-us div.container div.cards div.card div.parag a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #111111;
+    font-size: 14px;
+    font-family: "sans-regular";
+    text-align: left;
+    border-bottom: 2px solid #111111;
+}
+div.why-us div.container div.cards div.three div.parag a{
+    color: #FFFFFF;
+    border-bottom: 2px solid #ffd777;
+}
+div.why-us div.container div.cards div.two div.parag a{
+    border-bottom: 2px solid #ffd777;
+}
+div.why-us div.container div.cards div.card div.parag a:hover{
+    border-bottom: 2px solid #666666;
+}
+div.why-us div.container div.cards div.two div.parag a:hover{
+    border-bottom: 2px solid #ffc63d;
+}
+div.why-us div.container div.cards div.three div.parag a:hover{
+    color: #e6e6e6;
+    border-bottom: 2px solid #ffc63d;
+}
+/* end the why us section style */
+/* start the free section style */
+div.free{
+    width: 100%;
+    height: 824px;
+    background-image: url("images/fg5-min.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-top: 180px;
+}
+div.free div.container{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+div.free div.container h2{
+    font-size: 60px;
+    font-family: "sans-bold";
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+div.free div.container p{
+    margin: 30px 255px 0px;
+    font-size: 20px;
+    font-family: "sans-semibold";
+    color: #FFFFFF;
+}
+div.free div.container div.contact-us{
+    margin-top: 40px;
+}
+div.free div.container div.contact-us label{
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: "sans-regular";
+    color: #FFFFFF;
+    display: inline;
+}
+div.free div.container div.contact-us input{
+    padding: 10px 12px;
+    width: 284px;
+    height: 50px;
+    font-size: 16px;
+    font-family: "sans-regular";
+    border: none;
+}
+div.free div.container div.contact-us input:focus{
+    outline: none;
+}
+div.free div.container div.contact-us a{
+    font-size: 18px;
+    font-family: "sans-semibold";
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 13px 40px;
+    background-color: #ffc63d;
+    margin-left: 10px;
+    color: #111111;
+}
+div.free div.container div.contact-us a:hover{
+    background-color: #111111;
+    color: #FFFFFF;
+}
+/* end the free section style */
+/* start the style for contact section */
+
+div.contact {
+    width: 100%;
+    background-color: #ffc63d;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+div.contact div.container {
+    width: 65%;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+div.contact div.container h2 {
+    font-size: 48px;
+    font-family: "sans-bold";
+    margin: 0px;
+    color: #111111;
+}
+
+div.contact div.container div.inputs {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 13px;
+}
+
+div.contact div.container div.inputs div.input {
+    width: 49%;
+    height: 79px;
+}
+
+div.contact div.container div.inputs div.input label {
+    font-size: 16px;
+    color: #111111;
+    font-family: "sans-regular";
+    display: block;
+    text-align: left;
+}
+
+div.contact div.container div.inputs div.input input {
+    width: 100%;
+    height: 54px;
+    padding: 10px 12px;
+    background-color: #f2f2f2;
+    border: 1px solid #b3b3b3;
+}
+
+div.contact div.container div.inputs div.input input:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 20px;
+    font-family: "sans-regular";
+
+}
+
+label {
+    font-size: 16px;
+    color: #111111;
+    font-family: "sans-regular";
+    display: block;
+    text-align: left;
+}
+
+div.text-area {
+    width: 100%;
+}
+
+textarea {
+    padding: 10px 12px;
+    width: 100%;
+    height: 150px;
+    display: block;
+    border: 1px solid #b3b3b3;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+div.contact div.container div.inputs a {
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "sans-bold";
+    height: 62px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px 0px 18px;
+}
+
+/* end the style for contact section */
+/* start the style for footer section */
+footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+footer p {
+    font-size: 14px;
+    font-family: "sans-regular";
+    color: #FFFFFF;
+}
+
+section {
+    width: 100%;
+    height: 97px;
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "sans-regular";
+    font-size: 13px;
+}
+
+section p a {
+    color: #95ccc3;
+    font-family: "sans-regular";
+}
+
+p#last {
+    font-size: 16px;
+    font-family: "sans-regular";
+    margin: 0px;
+}
+/* start the style for footer section */
+/* start the style for responsive size 1440*/
+@media screen and (max-width:1440px) {
+    div.contact div.container {
+        width: 60%;
+    }
+}
+
+/* end the style for responsive size 1440*/
+
+/* start the style for responsive size 1024*/
+@media screen and (max-width:1024px) {
+    div.fitness div.container div.h1 h1 {
+        width: 90%;
+        font-size: 60px;
+    }
+
+    div.fitness div.container div.h1 p {
+        width: 90%;
+    }
+
+    div.link {
+        width: 60%;
+    }
+
+    div.journy div.container div.four-column {
+        padding: 30px 0px 30px 40px;
+    }
+
+    div.container div.four-column h2,
+    div.get-active div.container div.parag h3,
+    div.why-us div.container h2 {
+        font-size: 36px;
+        width: 100%;
+    }
+
+    div.start-today div.container,
+    div.join-now div.container,
+    div.get-active div.container,
+    div.relax div.container,
+    div.amenities div.container,
+    div.success div.container,
+    div.why-us div.container,
+    div.journy div.container {
+        width: 95%;
+    }
+
+    div.get-active div.container div.image div.image-one {
+        width: 412px;
+    }
+
+    div.get-active div.container div.image div.image-two {
+        height: 310px;
+        left: 70px;
+    }
+
+    div.get-active {
+        padding-bottom: 200px;
+    }
+
+    div.relax div.container div.parag a {
+        padding: 16px 47px 17px 46px;
+    }
+
+    div.relax div.container div.parag {
+        padding-top: 75px;
+    }
+
+    div.relax div.container div.parag p {
+        margin-bottom: 90px;
+    }
+
+    div.amenities div.container p {
+        margin: 28px 97px 0px;
+    }
+
+    div.amenities div.container div.cards div.card div.image {
+        height: 220px;
+    }
+
+    div.amenities div.container div.cards div.card {
+        height: 307.5px;
+    }
+
+    div.amenities div.container div.cards {
+        height: auto;
+    }
+
+    div.amenities {
+        padding-bottom: 90px;
+    }
+
+    div.success div.container p {
+        margin: 20px 140px 70px;
+    }
+
+    div.free div.container p {
+        margin: 30px 155px;
+    }
+
+    div.contact div.container {
+        width: 80%;
+    }
+}
+
+/* end the style for responsive size 1024*/
+
+
+/* start the style for responsive size 768*/
+@media screen and (max-width:768px){
+    div.fitness div.container,div.journy div.container,div.start-today div.container,
+    div.join-now div.container,
+    div.get-active div.container,div.relax div.container,div.amenities div.container,
+    div.success div.container,div.why-us div.container,div.contact div.container{
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div.fitness div.container div.h1 h1{
+        width: 100%;
+        font-size: 60px;
+    }
+    div.fitness div.container div.h1 p{
+        width: 100%;
+    }
+    div.link{
+        width: 72%;
+    }
+    div.journy div.container div.columns{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div.container div.columns div.first-column,div.container div.columns div.second-column{
+        width: 48.5%;
+    }
+    div.journy div.container div.four-column,
+    div.second-column,
+    div.third-column,div.relax div.container div.parag p,
+    div.relax div.container div.image{
+        width: 100%;
+    }
+    div.journy div.container div.four-column{
+        padding: 30px;
+    }
+    div.container div.columns div.first-column div.row-one{
+        height: 358px;
+        background-position: 50% 30%;
+    }
+    div.container div.columns div.second-column div.row-one{
+        height: 377px;
+    }
+    div.container div.columns div.row-second-one h6{
+        font-size: 24px;
+    }
+    div.container div.columns div.third-column div.row-one{
+        height: 793px;
+        background-position: 50% 37%;
+    }
+    div.container div.four-column h2,div.why-us div.container h2{
+        font-size: 36px;
+    }
+    div.join-now{
+        padding: 0px 0px 80px 0px;
+    }
+    div.join-now div.container{
+        justify-content: center;
+    }
+    div.join-now div.container div.columns div.one,div.amenities div.container div.cards div.card{
+        width: 48.5%;
+    }
+    div.join-now div.container div.columns div.one div.image{
+        height: 286px;
+    }
+    div.join-now div.container div.columns{
+        row-gap: 45px;
+    }
+    div.get-active div.container div.image,div.success div.container div.cards div.card{
+        width: 49%;
+    }
+    div.get-active div.container div.image div.image-one,div.get-active div.container div.image div.image-two{
+        width: 310px;
+        height: 288px;
+    }
+    div.get-active div.container div.image div.image-two{
+        left: 103px;
+        top: 230px;
+    }
+    div.get-active div.container div.parag h3{
+        font-size: 32px;
+    }
+    div.relax div.container div.parag{
+        width: 100%;
+        padding: 30px 30px 30px 0px;
+    }
+    div.why-us{
+        padding: 40px 0px 550px 0px;
+        
+    }
+    div.relax{
+        padding: 0px 0px 60px 0px;
+    }
+    div.relax div.container div.parag a{
+        padding: 16px 47px 17px 46px;
+    }
+    div.amenities div.container p{
+        margin: 0px;
+    }
+    div.amenities{
+        padding: 50px 0px 460px 0px;
+    }
+    div.success div.container p{
+        margin: 20px 0px 60px 0px;
+    }
+    div.success div.container div.cards{
+        row-gap: 20px;
+    }
+    div.success{
+        height: 1468px;
+    }
+    div.why-us div.container{
+        display: flex;
+        justify-content: center;
+    }
+    div.why-us div.container div.cards div.card{
+        width: 50%;
+    }
+    div.free{
+        padding: 100px 0px 0px 0px;
+        height: 555px;
+    }
+    div.free div.container p{
+        margin: 30px 40px;
+    }
+    div.contact div.container{
+        justify-content: center;
+    }
+}
+/* end the style for responsive size 768*/
+
+/* start the style for responsive size 542*/
+
+@media screen and (max-width:542px){
+    div.journy div.container,
+    div.start-today div.container,div.join-now div.container,
+    div.get-active div.container,div.relax div.container,
+    div.amenities div.container,div.success div.container,
+    div.why-us div.container,div.contact div.container {
+        width: 85%;
+    }
+    div.fitness div.container div.h1 h1{
+        font-size: 30px;
+
+    }
+    div.fitness{
+        padding-top: 60px;
+        height: 823px;
+    }
+    div.link{
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        row-gap: 50px;
+        margin-top: 90px;
+    }
+    div.link div.one,
+    div.second{
+        width: 100%;
+    }
+    div.link div.one a{
+        padding: 17px 57px 18px 55px;
+    }
+    div.link div.second a{
+        padding: 17px 40px 18px;
+    }
+    
+    div.container div.columns div.first-column,
+    div.second-column,
+    div.third-column{
+        width: 100%;
+    }
+    div.container div.columns div.third-column div.row-one{
+        height: 358px;
+    }
+    div.container div.columns div.second-column{
+        width: 100%;
+    }
+    div.journy div.container div.four-column{
+        padding: 30px 10px;
+    }
+    div.container div.four-column h2{
+        margin-top: 0px;
+    }
+    div.start-today div.container h2{
+        font-size: 48px;
+    }
+    div.join-now div.container h2,div.why-us div.container h2{
+        font-size: 30px;
+    }
+    div.join-now div.container div.columns div.one{
+        height: 524px;
+        width: 100%;
+    }
+    div.join-now div.container div.columns{
+        row-gap: 30px;
+    }
+    div.get-active{
+        padding-bottom: 80px;
+    }
+    div.get-active div.container div.image div.image-one{
+        width: 302px;
+        height: 333px;
+    }
+    div.get-active div.container div.image div.image-two{
+        width: 214px;
+        height: 202px;
+        left: 125px;
+        top: 190px;
+    }
+    div.get-active div.container div.parag{
+        width: 100%;
+        padding: 200px 10px 0px;
+    }
+    div.get-active div.container div.parag h3{
+        font-size: 24px;
+    }
+    div.relax div.container div.parag h2,div.free div.container h2,div.contact div.container h2{
+        font-size: 30px;
+    }
+    div.relax div.container div.image div.two,div.relax div.container div.image div.one{
+        width: 100%;
+    }
+    div.relax div.container div.image div.one{
+        margin-bottom: 20px;
+    }
+    div.relax div.container div.image div.one div.image{
+        height: 362px;
+    }
+    div.relax div.container div.image div.one{
+        height: 442px;
+    }
+
+    div.relax div.container div.parag{
+        padding-bottom: 60px;
+    }
+    div.amenities{
+        padding-bottom: 50px;
+    }
+    div.amenities div.container h2{
+        font-size: 30px;
+        margin-bottom: 28px;
+        }
+    div.amenities div.container div.cards div.card{
+        width: 100%;
+        height: 346px;
+    }
+    div.amenities div.container div.cards div.card div.image{
+        height: 258px;
+    }
+    div.success{
+        height: 1912px  ;
+    }
+    div.success div.container h2{
+        font-size: 36px;
+    }
+    div.success div.container div.cards div.card{
+        height: 470px;
+        width: 100%;
+    }
+    div.success div.container div.cards div.card div.image{
+        height: 257px;
+    }
+    div.why-us{
+        height: 1700px;
+    }
+    div.why-us div.container div.cards div.card{
+        width: 100%;
+        height: 475px;
+    }
+    div.free{
+        padding-top: 49px;
+    }
+    div.free div.container p{
+        margin: 30px 0px 0px;
+    }
+    div.free div.container div.contact-us input{
+        margin-bottom: 20px;
+    }
+    div.free div.container div.contact-us a{
+        display: block;
+        padding: 15px 40px;
+        width: 345px;
+    }
+    div.contact div.container div.inputs div.input{
+        width: 100%;
+    }
+}
+
+/* end the style for responsive size 542*/
+
+/* start the style for responsive size 375*/
+@media screen and (max-width:375px) {
+    div.journy div.container,
+    div.start-today div.container,
+    div.join-now div.container,
+    div.get-active div.container,
+    div.relax div.container,
+    div.amenities div.container,
+    div.success div.container,
+    div.why-us div.container,
+    div.contact div.container{
+    width: 95%;
+    }
+    div.free div.container div.contact-us a{
+        width: auto;
+    }
+}
+/* end the style for responsive size 375*/
+/* start the style for responsive size 320*/
+
+@media  screen and (max-width:320px) {
+
+    div.free{
+        height: 576px;
+    }
+    div.free div.container{
+        width: 95%;
+    }
+div.link div.one a{
+    padding: 17px 40px 18px;
+}
+div.get-active div.container div.image div.image-one{
+    width: 250px;
+    height: 280px;
+}
+div.get-active div.container div.image div.image-two{
+    width: 180px;
+    height: 170px;
+    left: 110px;
+    top: 160px;
+}
+div.free div.container div.contact-us a{
+    padding: 15px 30px;
+    width: 80%;
+    margin: auto;
+}
+
+}

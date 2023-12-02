@@ -1,0 +1,667 @@
+@font-face {
+  font-family: "font-awesome";
+  src: url("../webfonts/fa-brands-400.ttf");
+}
+
+@font-face {
+  font-family: "font-awesome";
+  src: url("../webfonts/fa-brands-400.woff2");
+}
+
+@font-face {
+  font-family: "font-awesome";
+  src: url("../webfonts/fa-regular-400.ttf");
+}
+
+@font-face {
+  font-family: "font-awesome";
+  src: url("../webfonts/fa-regular-400.woff2");
+}
+
+@font-face {
+  font-family: "font-awesome";
+  src: url("../webfonts/fa-solid-900.ttf");
+}
+
+@font-face {
+  font-family: "font-awesome";
+  src: url("../webfonts/fa-solid-900.woff2");
+}
+
+/* import open sans fonts */
+@font-face {
+  font-family: "sans-bold";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "sans-extrabold";
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "sans-light";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "sans-medium";
+  src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "sans-regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "sans-semibold";
+  src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+
+/* start the style for header */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  margin: auto;
+  font-size: 16px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+header div.container {
+  width: 80%;
+  margin: auto;
+}
+
+header a {
+  text-align: right;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "sans-semibold";
+  text-decoration: none;
+  color: black;
+}
+
+header a:active {
+  color: #ffc63d;
+}
+
+header a:hover {
+  color: #ffc63d;
+}
+
+/* end the style of header style */
+
+/* start the style of first section */
+div.first-section {
+  width: 100%;
+  height: 775px;
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  background-position: 50% 0%;
+
+}
+
+div.opcity {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.first-section div.container {
+  width: 80%;
+  margin: auto;
+  box-sizing: border-box;
+  height: 775px;
+  text-align: center;
+
+}
+
+div.first-section div.container h1 {
+  text-align: center;
+  padding-top: 305px;
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "sans-bold";
+  margin: 0px;
+}
+
+div.first-section div.container p {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "sans-light";
+  margin-bottom: 120px;
+  margin-top: 30px;
+}
+
+div.first-section div.container a {
+  text-transform: uppercase;
+  font-size: 20px;
+  /* margin-left: 420px; */
+  padding: 18px 41px 19px 39px;
+  border: 2px solid #ffc63d;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "sans-bold";
+
+
+}
+
+div.first-section div.container a:hover {
+  background-color: #ffc63d;
+  color: black;
+
+}
+
+/* end the style of first section */
+
+/* start the style for second section */
+div.section2 {
+  width: 100%;
+  background-color: black;
+
+}
+
+div.section2 div.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+div.section2 div.all-classes {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto;
+}
+
+div.section2 h2 {
+  font-size: 60px;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 60px;
+  font-family: "sans-bold";
+}
+
+div.section2 div.container div.item {
+  width: 32%;
+  height: 550px;
+  margin: 0px;
+}
+
+div.item div.title-class {
+  padding: 20px 30px;
+  background-color: #ffc63d;
+  margin: 0px;
+  width: 100%;
+  height: 92px;
+
+}
+
+div.item div.photo-class {
+  height: 278px;
+  background-image: url("../images/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+div.item div.photo-class1 {
+  height: 278px;
+  background-image: url("../images/3\ \(2\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+div.item div.photo-class2 {
+  height: 278px;
+  background-image: url("../images/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+div.item div.photo-class3 {
+  height: 278px;
+  background-image: url("../images/5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+div.item div.photo-class4 {
+  height: 278px;
+  background-image: url("../images/6\ \(2\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+div.item div.photo-class5 {
+  height: 278px;
+  background-image: url("../images/7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+div.item div.photo-class6 {
+  height: 278px;
+  background-image: url("../images/8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+div.item div.photo-class7 {
+  height: 278px;
+  background-image: url("../images/9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+div.item div.photo-class8 {
+  height: 278px;
+  background-image: url("../images/10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+
+div.title-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#one {
+  font-size: 24px;
+  font-family: "sans-bold";
+  text-align: center;
+}
+
+div.item div.paragraf {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  padding-top: 24px;
+}
+
+div.item div.paragraf p {
+  margin: 0px;
+  font-size: 16px;
+  font-family: "sans-regular";
+  margin-bottom: 20px;
+  color: #111111;
+}
+
+div.item div.paragraf a {
+  border-bottom: 2px solid #ffc63d;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "sans-bold";
+  color: #111111;
+}
+
+div.item div.paragraf a:hover {
+  border-bottom: 2px solid #111111;
+  color: #f1c50e;
+}
+
+/* end the style for second section */
+
+/* start the style for formats section */
+div.formats-section {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+div.formats-section div.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  padding-bottom: 120px;
+}
+
+div.formats-section div.formats {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto;
+}
+
+div.formats-section div.formats h2 {
+  font-size: 48px;
+  color: #111111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 60px;
+  font-family: "sans-bold";
+  margin-bottom: 45px;
+}
+
+div.container div.format {
+  width: 32%;
+  height: 473px;
+  margin: 0px;
+}
+
+div.container div.format div.photo-format1 {
+  width: 100%;
+  height: 473px;
+  background-image: url("../images/11.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 30px;
+  margin: 0px;
+}
+
+div.container div.format div {
+  width: 276px;
+  border-top: 3px solid #ffffff;
+  margin-top: 325px;
+}
+
+div.container div.format h3 {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "sans-bold";
+  margin-bottom: 0px;
+}
+
+div.container div.format p {
+  font-size: 16px;
+  font-family: "sans-light";
+  color: #ffffff;
+  margin-top: 12px;
+}
+
+div.container div.format div.photo-format2 {
+  width: 100%;
+  height: 473px;
+  background-image: url("../images/12.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 30px;
+  margin: 0px;
+}
+
+div.container div.format div.photo-format3 {
+  width: 100%;
+  height: 473px;
+  background-image: url("../images/3.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 30px;
+  margin: 0px;
+}
+
+div.container div.format div.photo-format4 {
+  width: 100%;
+  height: 473px;
+  background-image: url("../images/mw.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 30px;
+  margin: 0px;
+}
+
+div.container div.format div.photo-format5 {
+  width: 100%;
+  height: 473px;
+  background-image: url("../images/345.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 30px;
+  margin: 0px;
+}
+
+div.container div.format div.photo-format6 {
+  width: 100%;
+  height: 473px;
+  background-image: url("../images/34.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 30px;
+  margin: 0px;
+}
+
+/* end  the style for formats section */
+
+
+/* start the style for see more section */
+
+div.see-more {
+  width: 100%;
+  height: 696px;
+  background-image: url("../images/ert.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+div.see-more div.container {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+div.see-more div.container div.logo {
+  position: relative;
+  top: 180px;
+  width: 100px;
+  height: 100px;
+  /* background-color: #ffffff; */
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div.logo i {
+  font-size: 100px;
+  color: #ffc63d;
+
+}
+
+
+div.see-more div.container h2 {
+  margin: auto;
+  font-family: "sans-bold";
+  font-size: 48px;
+  position: relative;
+  top: 200px;
+  color: #FFFFFF;
+}
+
+div.see-more div.container h3 {
+  margin: auto;
+  font-family: "sans-bold";
+  font-size: 30px;
+  position: relative;
+  top: 230px;
+  color: #ffffff;
+}
+
+div.see-more div.container h3 a {
+  color: #ffc63d;
+  text-decoration: none;
+}
+
+div.see-more div.container h3 a:hover {
+  color: #ffffff;
+}
+
+/* end the style for see more section */
+
+/* start the style for contact section */
+
+div.contact {
+  width: 100%;
+  background-color: #ffc63d;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0px;
+}
+
+div.contact div.container {
+  width: 65%;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+div.contact div.container h2 {
+  font-size: 48px;
+  font-family: "sans-bold";
+  margin: 0px;
+  color: #111111;
+}
+
+div.contact div.container div.inputs {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 13px;
+}
+
+div.contact div.container div.inputs div.input {
+  width: 49%;
+  height: 79px;
+}
+
+div.contact div.container div.inputs div.input label {
+  font-size: 16px;
+  color: #111111;
+  font-family: "sans-regular";
+  display: block;
+  text-align: left;
+}
+
+div.contact div.container div.inputs div.input input {
+  width: 100%;
+  height: 54px;
+  padding: 10px 12px;
+  background-color: #f2f2f2;
+  border: 1px solid #b3b3b3;
+}
+
+div.contact div.container div.inputs div.input input:focus {
+  outline: none;
+}
+
+::placeholder {
+  font-size: 20px;
+  font-family: "sans-regular";
+
+}
+
+label {
+  font-size: 16px;
+  color: #111111;
+  font-family: "sans-regular";
+  display: block;
+  text-align: left;
+}
+
+div.text-area {
+  width: 100%;
+}
+
+textarea {
+  padding: 10px 12px;
+  width: 100%;
+  height: 150px;
+  display: block;
+  border: 1px solid #b3b3b3;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+div.contact div.container div.inputs a {
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "sans-bold";
+  height: 62px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 16px 0px 18px;
+}
+
+/* end the style for contact section */
+/* start the style for footer section */
+footer {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+footer p {
+  font-size: 14px;
+  font-family: "sans-regular";
+  color: #FFFFFF;
+}
+
+section {
+  width: 100%;
+  height: 97px;
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "sans-regular";
+  font-size: 13px;
+}
+
+section p a {
+  color: #95ccc3;
+  font-family: "sans-regular";
+}
+
+p#last {
+  font-size: 16px;
+  font-family: "sans-regular";
+  margin: 0px;
+}
